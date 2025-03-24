@@ -1,0 +1,207 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(255,255,255), #f39f9f);
+}
+
+header {
+    background-color:  #f39f9f;
+    color:#571717;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    text-align: center;
+    padding: 50px;
+}
+
+.welcome-message h1 {
+    font-size: 2rem;
+}
+
+#home img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+
+
+
+.nav-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color:#571717;
+    padding: 15px;
+    text-decoration: none;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 50px;
+}
+
+.welcome-message h1 {
+    font-size: 2rem;
+}
+
+#home img {
+    width: 350px;
+    height: 350px;
+    border-radius: 25%;
+    margin-top: 20px;
+   display: block;
+   margin-left: 0%;
+   
+   
+}
+
+
+
+/* About Me Section */
+#about {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f3c1c1;
+}
+
+.bio, .skills {
+    width: 45%;
+}
+
+.bio p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px;
+    background-color: #f5d2d2;
+    text-align: center;
+}
+
+.project {
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.project a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background-color: #f3c1c1;
+    text-align: center;
+}
+
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Always Show Scrollbar */
+html, body {
+    overflow-y: scroll; /* Forces vertical scrollbar */
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+}
+
+/* Show Scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Adjust width */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background: #222; /* Dark track background */
+}
+
+/* Scrollbar Thumb (Draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #666; /* Default thumb color */
+    border-radius: 10px;
+}
+
+/* Scrollbar Thumb Hover Effect */
+::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Lighter gray on hover */
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
